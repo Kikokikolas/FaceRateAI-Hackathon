@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+
+# Ambiente e credenciais — NUNCA commitar
+.env
+.env.*
+*.env
+!.env.example
+!.env.sample
+
+# Base de dados local
+*.db
+*.sqlite3
+
+
+# Build frontend
+frontend/dist/
+frontend/node_modules/
+frontend/.turbo/
+
+# Dependencies at repo root
+node_modules/
+
+# Generated/local uploads
+/uploads/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+.coverage/
+htmlcov/
+
+# Build artefatos
+build/
+*.egg-info/
