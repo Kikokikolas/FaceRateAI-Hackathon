@@ -34,10 +34,6 @@ For hackathon judging, the hosted demo is configured with a free token allowance
 
 Judges do not need to pay. The public frontend calls the private production API over HTTPS.
 
-## Demo Note
-
-The hosted hackathon demo may be served over temporary HTTP/IP access while final HTTPS/domain setup is pending. Browsers only allow webcam access on HTTPS or localhost, so the “Take photo” camera option may be unavailable on the temporary deployment. Use “Choose photo” to upload an image instead.
-
 ## Features
 
 - Clerk authentication and protected routes.
